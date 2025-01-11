@@ -1,0 +1,118 @@
+body, ul, li, a, h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.banner img{
+    max-width: 100%;   
+}
+
+.banner{
+    position: relative;   
+}
+.welcome{
+    position: absolute;
+    top:30%;
+    color: white;
+    background-color: rgba(250, 171, 24, 0.932);
+    padding: 30px;
+    left: 0%;
+}
+.banner h2{
+    font-size: 60px;
+}
+.banner h2 span{
+    font-size: 1.3em;
+}
+header{
+    background-color: rgb(253, 29, 29);
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1{
+    color: white;
+    border: 8px solid white;
+    padding: 7px 17px;
+    display: inline-block;
+    border-radius: 40px;
+}
+nav{
+    position: sticky;
+    top: 80px;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+nav ul{
+    max-width: 1200px;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 20px;
+    transition: transform 0.2s ease;
+}
+nav li a{
+    text-decoration: none;
+    color: #919192;
+    
+}
+nav li a.joins{
+    color:  rgb(253, 29, 29);
+}
+nav li:hover{
+    transform: scale(1.2);
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article p{
+    color: #919192;
+    line-height: 2em;
+}
+article h2{
+    color: #f63232;
+}
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+.images li img{
+    max-width: 100%;
+}
+.join{
+    text-align: center;
+    background-color: #dddddd;
+    padding: 20px;
+}
+.join h2{
+    font-size: 32px;
+}
+form input[type="email"]{
+    padding: 20px;
+    border-radius: 30px;
+    width: 200px;
+    border: 2px #919192 solid;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: #f63232;
+    padding: 10px;
+}
