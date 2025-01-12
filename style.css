@@ -19,7 +19,7 @@ body, ul, li, a, h1, h2{
     left: 0%;
 }
 .banner h2{
-    font-size: 60px;
+    font-size: 70px;
 }
 .banner h2 span{
     font-size: 1.3em;
@@ -129,4 +129,58 @@ form input:focus{
 }
 form input:valid{
     border: 3px green solid
+}
+
+/* responsive styles */
+
+@media screen and (max-width: 1400px){
+    .banner h2{
+    font-size: 60px;
+    }
+    nav li{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 960px){
+    .banner h2{
+    font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    .banner .welcome{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    }
+    .banner .welcome br{
+        display: none;
+    }
+    .banner h2{
+        font-size: 25px;
+    }
+    .banner .welcome span{
+        font-size: 1em;
+    }
+    .images li{
+        display: block;
+        width: 80%;
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width: 560px){
+    nav li{
+        font-size: 20px;
+        display: block;
+        width: 100px;
+        margin: 10px;
+    }
+    header{
+        position: relative;
+    }
+    nav{
+        top: 0;
+    }
 }
