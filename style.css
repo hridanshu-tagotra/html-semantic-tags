@@ -56,7 +56,6 @@ nav li{
     width: 25%;
     display: inline-block;
     font-size: 20px;
-    transition: transform 0.2s ease;
 }
 nav li a{
     text-decoration: none;
@@ -66,9 +65,7 @@ nav li a{
 nav li a.joins{
     color:  rgb(253, 29, 29);
 }
-nav li:hover{
-    transform: scale(1.2);
-}
+
 main{
     max-width: 100%;
     width: 1200px;
@@ -92,6 +89,7 @@ article h2{
     display: inline-block;
     width: 40%;
     margin: 20px 5%;
+    transition: transform 0.3s ease;
 }
 .images li img{
     max-width: 100%;
@@ -115,4 +113,20 @@ footer{
     color: white;
     background-color: #f63232;
     padding: 10px;
+}
+
+/*pseuod classes*/
+nav li a:hover{
+    text-decoration: underline; 
+}
+
+.images li:hover{
+    transform: scale(1.2);
+}
+form input:focus{
+    border: 3px #f63232 solid;
+    outline: none;
+}
+form input:valid{
+    border: 3px green solid
 }
